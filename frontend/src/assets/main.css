@@ -1,0 +1,13 @@
+/* @import './base.css'; */
+/* body {
+  min-height: 100vh;
+} */
+
+#app {
+  background-color: #e4e4e4;
+  padding: 1em 1.7em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  min-height: 100vh;
+}
