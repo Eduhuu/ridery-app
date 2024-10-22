@@ -60,7 +60,7 @@ services:
 
 ```
 ### Ejecutar docker compose
-Para ejecutar este archivo debe situarse en la raíz del proyecto y ejecutar el siguiente comando:
+Para ejecutar este archivo debe llegar todos los campos necesarios, estos estan identificados con <>. Para luego situarse en la raíz del proyecto y ejecutar el siguiente comando:
 
 
     docker compose up -d
