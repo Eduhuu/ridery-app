@@ -92,7 +92,7 @@ Debe de tener instalado:
 
 
 ### Variables de entorno
-Este proyecto posee la siguiente forma:
+Estas posee la siguiente forma:
 ```
 VITE_BACKEND_URL=
 ```
@@ -127,7 +127,7 @@ Debe de tener en cuenta que si quiere poder utilizar la aplicación recuerde que
 
 Carpeta que aloja la aplicación relacionada con el backend. Esta fue desarrollada utilizando la tecnología de `Node` y `Express.js`
 
-
+### Requisitos previos
 Debe de tener instalado:
 - Node y npm (https://nodejs.org/en/download/package-manager)
 
@@ -164,7 +164,7 @@ También puede ejecutar la aplicación utilizando el Docker utilizando el docker
 Debe de tener en cuenta que si quiere poder utilizar la aplicación recuerde que debe de tener corriendo tanto el frontend como la base de datos.
 
 
-### Base de datos
+## Base de datos
 Para el desarrollo de la aplicación se utilizó una imagen de Mongodb.
 ### Requisitos previos
 Acceso a una instancia de Mongodb. Para ello utilizamos una imagen de  Docker (https://hub.docker.com/_/mongo).
