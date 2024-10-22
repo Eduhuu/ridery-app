@@ -5,8 +5,8 @@ services:
     ports:
       - 27017:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: admin
+      MONGO_INITDB_ROOT_USERNAME: 
+      MONGO_INITDB_ROOT_PASSWORD: 
   express-app:
     build: ./backend
     container_name: express-app
@@ -15,11 +15,9 @@ services:
     depends_on:
       - mongo_app
     environment:
-      - name=value
       - PORT=3000
-      - DOMAIN=localhost
-      - JWT_SECRET=los secretos para jwt deben de ser largos y seguros
-      - MONGO_URI=mongodb://admin:admin@mongo_app:27017/mongo_db
+      - JWT_SECRET=
+      - MONGO_URI=
   vue-app:
     build: ./frontend
     container_name: vue-app

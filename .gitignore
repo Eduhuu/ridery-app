@@ -2,3 +2,5 @@
 /frontend/deps
 /frontend/dist
 /backend/node_modules
+/backend/.env
+/frontend/.env
